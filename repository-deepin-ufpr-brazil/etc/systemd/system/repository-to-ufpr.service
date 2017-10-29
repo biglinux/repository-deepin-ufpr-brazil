@@ -1,0 +1,12 @@
+[Unit]
+Description = Change repository to ufpr
+After = NetworkManager-wait-online.service network.target network-online.target dbus.service
+Wants = NetworkManager-wait-online.service network-online.target
+Requires = dbus.service
+
+[Service]
+Type = forking
+ExecStart = /usr/bin/repository-to-ufpr
+
+[Install]
+WantedBy = multi-user.target

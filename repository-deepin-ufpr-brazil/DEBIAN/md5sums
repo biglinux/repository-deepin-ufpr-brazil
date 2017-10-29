@@ -1,0 +1,5 @@
+4bf5e8f4b7a9ea39e26e438581aa8afd  DEBIAN/control
+40568af4351f7e46a667bb98f3923530  DEBIAN/postinst
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+dc51d36c0d75864b794df990458d241d  usr/bin/repository-to-ufpr
+da1db7e3e74278fa2662607e5bee13d2  etc/systemd/system/repository-to-ufpr.service
